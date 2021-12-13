@@ -1,0 +1,244 @@
+* {
+  font-family: Algerian;
+}
+
+/* Popup container  */
+.popup {
+  background-color: yellow;
+  padding:1em;
+  font-size: 1em;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 20em;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup sign */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Adding animation */
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
+address {
+  background-color: gold;
+}
+
+
+address ul li {
+background-color: gold;
+  font-size: 0.8em;
+  float: right;
+  text-align: center;
+  padding: 1.8em;
+  position: relative;
+  right: 18em;
+  display: inline;
+  width: 10em;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+.b1{
+  list-style-image: url(https://www.clipartsmania.com/gif/star/yellow-animation-satr.GIF);
+}
+.b2{
+  list-style-image: url(https://www.clipartsmania.com/gif/star/yellow-animation-satr.GIF);
+}
+.b3{
+  list-style-image: url(https://www.clipartsmania.com/gif/star/yellow-animation-satr.GIF);
+}
+header {
+  margin-top: 13em;
+  float: left;
+  position: relative;
+  left: 20em;
+}
+
+a img {
+  margin-top: 13em;
+  position: relative;
+  left: 30em;
+  height: 21em;
+  width: 19em;
+  border-top-left-radius: 7em;
+  border-top-right-radius: 7em;
+  border-bottom-right-radius: 10em;
+  border-bottom-left-radius: 10em;
+}
+
+a img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+nav h1 {
+  text-align: center;
+  font-size: 3em;
+}
+
+nav p {
+  text-align: center;
+  position: relative;
+  bottom: 1em;
+}
+
+aside {
+  float: right;
+  position: relative;
+  right: 20em;
+  top: 5em;
+  text-align: center;
+}
+
+aside p {
+  position: relative;
+  left: 4em;
+  width: 20em;
+  text-align: center;
+}
+
+aside section {
+  display: inline-block;
+  padding: 2em;
+}
+
+strong {
+  font-size: 2em;
+}
+
+nav img {
+  width: 20em;
+  height: 23em;
+  position: relative;
+  left: 15em;
+  bottom: 11em;
+}
+
+footer section:nth-of-type(1) h1 {
+  text-align: center;
+  margin-top: 2em;
+  font-size: 3em;
+}
+
+footer section:nth-of-type(1) p {
+  text-align: center;
+  position: relative;
+  bottom: 1.6em;
+}
+
+.LINE1 {
+  background-color: darkblue;
+  width: 22em;
+  height: 0.5em;
+}
+
+.LINE2 {
+  background-color: #39A388;
+  width: 20em;
+  height: 0.5em;
+}
+
+.LINE3 {
+  background-color: #FF865E;
+  width: 17em;
+  height: 0.5em;
+}
+
+.LINE4 {
+  background-color: #FEE440;
+  width: 10em;
+  height: 0.5em;
+}
+
+.LINE5 {
+  background-color: #F8485E;
+  width: 5em;
+  height: 0.5em;
+}
+
+.LINE6 {
+  background-color: #B4B897;
+  width: 23em;
+  height: 0.5em;
+}
+
+footer section:nth-of-type(2) {
+  position: relative;
+  left: 15em;
+  top: 1em;
+}
+
+footer section:nth-of-type(3) {
+  float: left;
+  position: relative;
+  left: 15em;
+}
+
+footer section:nth-last-of-type(2) {
+  float: right;
+  position: relative;
+  bottom: 6em;
+  right: 20em;
+}
+
+footer section:nth-last-of-type(1) {
+  position: relative;
+  top: 35em;
+  right: 8em;
+  padding-bottom: 10em;
+}
